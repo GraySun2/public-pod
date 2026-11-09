@@ -7,14 +7,14 @@
 | Slug | Name | Status | As of | Hub | Repo | Note |
 | --- | --- | --- | --- | --- | --- | --- |
 | maze-game | Maze Game | production | 2026-10-18 | `concepts/maze-game/` | ExampleOwner/maze-game | M1 planned; no gates passed |
-| teehee-trail | Teehee Trail | shelved | 2026-10-15 | `concepts/teehee-trail/` |  |  |
+| trail-game | Trail Game | shelved | 2026-10-15 | `concepts/trail-game/` |  |  |
 
 ## market
 
 | Title | Date | Type | Status | Projects | Path |
 | --- | --- | --- | --- | --- | --- |
 | Steam adult-game market | 2026-10-19 | evidence | current |  | [market/2026-10-19-adult-games.md](market/2026-10-19-adult-games.md) |
-| Mobile games \| two studies | 2026-10-18 | analysis | draft | maze-game, teehee-trail | [market/2026-10-18-mobile-games/](market/2026-10-18-mobile-games/) |
+| Mobile games \| two studies | 2026-10-18 | analysis | draft | maze-game, trail-game | [market/2026-10-18-mobile-games/](market/2026-10-18-mobile-games/) |
 
 ## concepts
 
@@ -46,5 +46,5 @@
 
 | Title | Date | Type | Status | Projects | Path |
 | --- | --- | --- | --- | --- | --- |
-| Roguelike scan, short | 2026-09-20 | analysis | frozen |  | `archive/notes_pvt/main/research/scan.md` |
-| How to Fish | 2026-09-12 | evidence | frozen | maze-game, teehee-trail | `archive/notes_pvt/main/research/fish.md` |
+| Roguelike scan, short | 2026-09-20 | analysis | frozen |  | `archive/frozen_notes/main/research/scan.md` |
+| How to Fish | 2026-09-12 | evidence | frozen | maze-game, trail-game | `archive/frozen_notes/main/research/fish.md` |

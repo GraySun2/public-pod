@@ -295,7 +295,7 @@ def check_credits(rep, items):
 # 7. archive
 
 MANIFEST = "archive/source-manifest.csv"
-NOTES = "archive/notes_pvt"
+NOTES = "archive/frozen_notes"
 SYMLINKS = "tools/archive-symlinks.txt"
 
 
@@ -306,7 +306,7 @@ def git_blob_sha(path):
 
 
 def read_archive_symlinks(rep):
-    """Symlinks under notes_pvt/ that have no manifest row: {path: exact target}."""
+    """Symlinks under frozen_notes/ that have no manifest row: {path: exact target}."""
     links = {}
     if not os.path.exists(SYMLINKS):
         return links

@@ -58,14 +58,14 @@ python3 tools/check.py --strict   # pending moves are problems
    path is listed in `tools/size-allowlist.txt` (1 MB = 1,000,000 bytes).
 6. **Credits.** Every distinct `credit:` value appears verbatim in `CREDITS.md`.
 7. **Archive.** When `archive/CATALOG.csv` exists, its header must be exact,
-   its paths must be under `archive/notes_pvt/`, and every status must be `frozen`.
-   When `archive/notes_pvt/` exists:
+   its paths must be under `archive/frozen_notes/`, and every status must be `frozen`.
+   When `archive/frozen_notes/` exists:
    - each `archive/source-manifest.csv` row's file (`archive/` + `destination_path`
      minus `source/`) exists and has the git blob SHA-1 in `source_blob_sha`
      (several rows may share one destination);
    - each symlink listed in `tools/archive-symlinks.txt` (`<path> -> <target>`) exists
      and is a symlink with exactly that target. These have no manifest row;
-   - no other files or symlinks are under `archive/notes_pvt/`;
+   - no other files or symlinks are under `archive/frozen_notes/`;
    - every `CATALOG.csv` path exists.
 
 `archive/` and `tools/` are never treated as items, and their links are not checked.

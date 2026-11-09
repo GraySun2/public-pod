@@ -113,7 +113,7 @@ CASES = {
     "INDEX.md with CRLF line endings": ("good", crlf_index, 1, 1, [
         "INDEX.md:1: INDEX.md is out of date; run python3 tools/index.py",
     ]),
-    "CATALOG.csv before archive/notes_pvt/ exists": ("catalog_only", None, 0, 0, []),
+    "CATALOG.csv before archive/frozen_notes/ exists": ("catalog_only", None, 0, 0, []),
     "missing INDEX.md": ("good", no_index, 1, 1, [
         "INDEX.md:1: INDEX.md is missing; run python3 tools/index.py",
         "README.md:3: broken link 'INDEX.md' (no INDEX.md)",
@@ -200,28 +200,28 @@ CASES = {
         "market/2026-10-19-b.md:8: credit 'Lead Only' does not appear verbatim in CREDITS.md",
     ]),
     "bad archive": ("bad_archive", None, 0, 1, [
-        "archive/CATALOG.csv:3: path 'archive/notes_pvt/main/missing.md' does not exist",
-        "archive/CATALOG.csv:4: path 'archive/other/elsewhere.md' is not under archive/notes_pvt/",
+        "archive/CATALOG.csv:3: path 'archive/frozen_notes/main/missing.md' does not exist",
+        "archive/CATALOG.csv:4: path 'archive/other/elsewhere.md' is not under archive/frozen_notes/",
         "archive/CATALOG.csv:4: status must be 'frozen'",
         "archive/CATALOG.csv:4: path 'archive/other/elsewhere.md' does not exist",
-        "archive/CATALOG.csv:5: path 'archive/notes_pvt/../other/x.md' is not under archive/notes_pvt/",
-        "archive/CATALOG.csv:5: path 'archive/notes_pvt/../other/x.md' does not exist",
-        "archive/source-manifest.csv:3: file 'archive/notes_pvt/main/two.md' has blob "
+        "archive/CATALOG.csv:5: path 'archive/frozen_notes/../other/x.md' is not under archive/frozen_notes/",
+        "archive/CATALOG.csv:5: path 'archive/frozen_notes/../other/x.md' does not exist",
+        "archive/source-manifest.csv:3: file 'archive/frozen_notes/main/two.md' has blob "
         "5ea2ed416fbd4a4cbe227b75fe255dd7fa6bd4d6, manifest says 4b48deed3a433909bfd6b6ab3d4b91348b6af464",
-        "archive/source-manifest.csv:4: file 'archive/notes_pvt/main/gone.md' does not exist",
-        "archive/source-manifest.csv:5: destination_path 'notes_pvt/main/odd.md' does not start with 'source/'",
+        "archive/source-manifest.csv:4: file 'archive/frozen_notes/main/gone.md' does not exist",
+        "archive/source-manifest.csv:5: destination_path 'frozen_notes/main/odd.md' does not start with 'source/'",
         "tools/archive-symlinks.txt:4: line is not 'path -> target'",
-        "archive/notes_pvt/main/absent.md:1: must be a symlink to 'one.md' (listed in tools/archive-symlinks.txt)",
-        "archive/notes_pvt/main/link.md:1: symlink points to 'two.md', tools/archive-symlinks.txt says 'one.md'",
-        "archive/notes_pvt/main/plain.md:1: must be a symlink to 'one.md' (listed in tools/archive-symlinks.txt)",
-        "archive/notes_pvt/main/stray.md:1: file is under archive/notes_pvt/ but not in "
+        "archive/frozen_notes/main/absent.md:1: must be a symlink to 'one.md' (listed in tools/archive-symlinks.txt)",
+        "archive/frozen_notes/main/link.md:1: symlink points to 'two.md', tools/archive-symlinks.txt says 'one.md'",
+        "archive/frozen_notes/main/plain.md:1: must be a symlink to 'one.md' (listed in tools/archive-symlinks.txt)",
+        "archive/frozen_notes/main/stray.md:1: file is under archive/frozen_notes/ but not in "
         "archive/source-manifest.csv or tools/archive-symlinks.txt",
-        "archive/notes_pvt/main/unlisted-link.md:1: file is under archive/notes_pvt/ but not in "
+        "archive/frozen_notes/main/unlisted-link.md:1: file is under archive/frozen_notes/ but not in "
         "archive/source-manifest.csv or tools/archive-symlinks.txt",
     ]),
     "CSV that is not UTF-8": ("bad_encoding", None, 0, 1, [
-        "archive/CATALOG.csv:3: not valid UTF-8 (byte 140)",
-        "archive/source-manifest.csv:2: not valid UTF-8 (byte 74)",
+        "archive/CATALOG.csv:3: not valid UTF-8 (byte 146)",
+        "archive/source-manifest.csv:2: not valid UTF-8 (byte 77)",
     ]),
 }
 
