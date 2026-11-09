@@ -1,0 +1,10 @@
+# The research view of the owner's projects. One entry per project; FILING.md has the format.
+# Items name projects in their projects: field by slug. Example:
+#
+# - slug: my-game
+#   name: My Game
+#   status: exploring
+#   as_of: 2026-11-09
+#   hub: concepts/my-game/
+#   repo:
+#   note: first concept
