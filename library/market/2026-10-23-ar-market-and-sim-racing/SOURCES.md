@@ -1,0 +1,46 @@
+# Sources
+
+Every link cited in [README.md](README.md), in order of first use. Confidence for each claim is given inline in the README.
+
+1. <https://www.gii.tw/report/tbrc1706193-racing-simulator-global-market-report.html>
+2. <https://www.globenewswire.com/news-release/2024/03/12/2844578/0/en/Racing-Simulator-Market-worth-USD-1-1-billion-by-2030-Exclusive-Report-by-MarketsandMarkets.html>
+3. <https://www.kenresearch.com/industry-reports/north-america-racing-simulator-market>
+4. <https://lucintel.com/sim-racing-hardware-market.aspx>
+5. <https://ir.corsair.com/news-releases/news-release-details/corsair-set-acquire-fanatec-product-line-endor-ag>
+6. <https://www.overtake.gg/threads/sim-racing-trends-2022-vs-2023-vs-2025-questionnaire-analysis.283905/>
+7. <https://overtake.gg/news/comments/11265>
+8. <https://voxbooster.com/blog/sim-racing-statistics-2026>
+9. <https://www.onlineracedriver.com/2012/07/24/iracing-reaches-35000-paying-members>
+10. <https://www.thedrive.com/accelerator/33098/iracing-up-50000-subscribers-as-people-race-from-home.md>
+11. <https://www.gtplanet.net/sim-racing-year-in-review-20251231/>
+12. <https://en.wikipedia.org/wiki/Euro_Truck_Simulator_2>
+13. <https://traxion.gg/euro-truck-simulator-2-hits-new-steam-player-record/>
+14. <https://overtake.gg/threads/community-question-who-here-uses-vr-and-why.191982/page-3>
+15. <https://boxthislap.org/why-dont-pro-drivers-use-vr/>
+16. <https://pimax.com/blogs/crystal-light-reviews/triple-screens-vs-vr-which-is-faster-for-sim-racing>
+17. <https://trakracer.co.uk/blogs/racing-simulator/vr-vs-triple-screens>
+18. <https://forum.dcs.world/topic/335059-passthrough-full-cockpit-view>
+19. <https://www.avsim.com/forums/topic/645094-mixed-reality-demo-of-a-new-app-just-released/>
+20. <https://store.steampowered.com/app/5034200/>
+21. <https://simracingcockpit.gg/vr-sim-racing-games-2026/>
+22. <https://simracingcockpit.gg/vr-headsets-sim-racing/>
+23. <https://forums.autosport.com/topic/223300-augmented-reality-ghost-car/>
+24. <https://danielnewmanracing.com/products/overlays>
+25. <https://simmotion.com/products/grid-brows>
+26. <https://www.giiresearch.com/report/moi1910827-driving-simulator-market-share-analysis-industry.html>
+27. <https://www.marketsandmarkets.com/Market-Reports/driving-simulator-market-171814690.html>
+28. <https://gamedev.net/news/2451-meta-quest-usage-reaches-all-time-high-in-2025-despite-studio-closures-and/>
+29. <https://www.uploadvr.com/meta-reality-labs-q1-2025-revenue-declined-due-to-lower-quest-sales/>
+30. <https://www.digitalmusicnews.com/2025/07/31/meta-reality-labs-q2-2025/>
+31. <https://virtual.reality.news/news/ai-smart-glasses-market-growth-2026-why-shipments-climb/>
+32. <https://telecomlead.com/smart-phone/ar-vr-headset-market-faces-2025-decline-before-strong-rebound-in-2026-120478?noamp=mobile>
+33. <https://www.pocketgamer.biz/pokemon-go-celebrates-10th-anniversary-with-over-9bn-in-revenue/>
+34. <https://wnhub.io/news/analytics/item-51864>
+35. <https://www.globenewswire.com/de/news-release/2025/10/28/3175180/0/en/Mobile-Augmented-Reality-Market-Size-to-Surpass-USD-327-7-Billion-by-2032-Rising-at-a-CAGR-of-30-84-Report-by-SNS-Insider.html>
+36. <https://techcrunch.com/2025/10/22/samsung-takes-on-apples-vision-pro-with-new-galaxy-xr-headset/>
+37. <https://www.digitalcitizen.life/meta-quest-3-retakes-top-spot-steam-hardware-survey-september-2026/>
+38. <https://vr.org/articles/steam-frame-first-steam-survey-reading-0-41-percent-september-2026>
+39. <https://roadtovr.com/meta-quest-50-best-selling-games-2025/>
+40. <https://mixed-news.com/en/meta-quest-charts-week-14-2025/>
+41. <https://mixed-news.com/en/meta-quest-3-the-best-mixed-reality-apps-and-games/>
+42. <https://uploadvr.com/trackcraft-review>

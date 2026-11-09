@@ -1,0 +1,7 @@
+# audio-checks.sh run, 2026-10-22, ffmpeg 6.1.1, on five synthetic test files
+# Expected: one PASS (sfx_ui_click_01) and four FAILs, each for the defect built into it.
+FAIL(name lead-silence)	SFX Lead.wav	dur=0.800s	peak=-18.063656dBFS	truepeak=-18.1dBFS	I=-23.3LUFS
+FAIL(peak)	sfx_bad_clip_01.wav	dur=1.500s	peak=0.000265dBFS	truepeak=0.1dBFS	I=-2.2LUFS
+FAIL(all-silent)	sfx_bad_silent_01.wav	dur=1.000s	peak=-999dBFS	truepeak=-infdBFS	I=-70.0LUFS
+FAIL(tail-silence)	sfx_bad_tail_01.wav	dur=1.400s	peak=-18.063656dBFS	truepeak=-18.1dBFS	I=-23.9LUFS
+PASS	sfx_ui_click_01.wav	dur=1.500s	peak=-28.524766dBFS	truepeak=-28.5dBFS	I=-32.2LUFS

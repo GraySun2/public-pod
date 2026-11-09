@@ -1,0 +1,7 @@
+- slug: maze-game
+  name: Maze Game
+  status: active
+  as_of: 2026-10-18
+  hub: concepts/maze-game/
+  repo:
+  note:
