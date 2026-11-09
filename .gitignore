@@ -1,0 +1,3 @@
+# Python caches from the tools
+__pycache__/
+*.pyc
