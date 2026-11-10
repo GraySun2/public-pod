@@ -1,6 +1,6 @@
 # Module: Bevy headless test app
 
-A windowless Bevy app for tests, bots and self-tests: `MinimalPlugins` plus the game's own plugins, on a fixed clock where each `app.update()` is exactly one `FixedUpdate` tick. Game rules then test with no window, no GPU and no real time passing, and the same inputs give the same run every time. Six of Carter's Bevy games build this by hand (Cowboys & Aliens, Cell Block, Slapstick Chariots, Volan's Nebula, Sharp Behind, Tide-Bound); this is the one to copy from now on.
+A windowless Bevy app for tests, bots and self-tests: `MinimalPlugins` plus the game's own plugins, on a fixed clock where each `app.update()` is exactly one `FixedUpdate` tick. Game rules then test with no window, no GPU and no real time passing, and the same inputs give the same run every time. Many Bevy games build this by hand; this is a ready one to copy.
 
 ```
 id: bevy-headless-app
