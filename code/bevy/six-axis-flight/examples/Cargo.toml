@@ -1,0 +1,14 @@
+# A small Bevy game that flies the six-axis model. Run from this folder: cargo run --release
+# Bevy is a long first build. git ignores examples/Cargo.lock and target/.
+[package]
+name = "six_axis_flight_example"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bevy = "=0.20.0"
+
+[[bin]]
+name = "fly"
+path = "fly.rs"
