@@ -1,0 +1,16 @@
+# Test harness for code/bevy/six-axis-flight. Run from this folder: cargo test
+# The flight model is plain Rust (std only), so this builds in seconds; no Bevy needed.
+# git ignores tests/Cargo.lock and target/.
+[package]
+name = "six_axis_flight_tests"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+name = "flight6"
+path = "../src/flight6.rs"
+
+[[test]]
+name = "flight6"
+path = "test_flight6.rs"

@@ -33,7 +33,7 @@ The Pod is context engineering done with plain files: deciding what a Claude ses
 | [`pod/blueprint.md`](pod/blueprint.md) | Your plan for the Pod itself |
 | [`HISTORY.md`](HISTORY.md) and [`history/`](history/) | How to write a history entry, the monthly summaries, and the entries |
 | [`library/`](library/README.md) | A research library, filed by shelf, with an index. Starts with the three context-engineering briefs above |
-| [`code/`](code/README.md) | A small code library: Bevy and Godot modules for controls, touch, saves and headless tests |
+| [`code/`](code/README.md) | A small code library: Bevy and Godot modules for six-axis flight, controls, touch, saves and headless tests |
 | [`tools/pod_lint.py`](tools/pod_lint.py) | One command that checks links, front matter, the map, the pasted rules, past dates and stray keys |
 
 ## The idea in four lines
