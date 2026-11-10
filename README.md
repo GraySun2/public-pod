@@ -6,6 +6,14 @@ Every Claude session starts fresh. It doesn't know who you are, how you like to 
 
 It grew out of one indie game developer's setup, used daily across two Claude accounts, and is shared here as a starting kit. It has no code to install and needs no extra tools: Claude Code reads it on its own, and a chat session reads it through a short block you paste into the project's instructions.
 
+## The research behind it: context engineering
+
+The Pod is context engineering done with plain files: deciding what a Claude session reads, when, and in what order. Three research briefs in the Library explain why it is built the way it is.
+
+- **[Context engineering for LLMs, research brief updated to November 2026](library/craft/tech/2026-11-02-context-engineering-brief/README.md).** Start here. A model's context is a small working memory that gets worse well before it is full, so what goes in matters more than how much. Covers the four ways long contexts fail, the toolkit (skills, tool search, compaction), memory designs and their costs, and new risks like memory poisoning. Every claim links its source.
+- **[Second-brain designs for AI assistants, compared with The Pod](library/craft/tech/2026-11-01-second-brain-design/README.md).** How file-based memory for AI assistants is usually built, and what holds up: a small always-loaded front door, one index, one home for each fact.
+- **[Interpretable Context Methodology (ICM)](library/craft/tech/2026-11-06-interpretable-context-methodology/README.md).** A related idea from a 2026 paper: run one repeatable AI job as numbered folders, with a person checking the files between stages. How it fits beside a Pod.
+
 ## What's in it
 
 | Path | What it holds |
@@ -24,7 +32,7 @@ It grew out of one indie game developer's setup, used daily across two Claude ac
 | [`pod/quiz.md`](pod/quiz.md) | Questions a fresh session should answer from the Pod alone, to check it works |
 | [`pod/blueprint.md`](pod/blueprint.md) | Your plan for the Pod itself |
 | [`HISTORY.md`](HISTORY.md) and [`history/`](history/) | How to write a history entry, the monthly summaries, and the entries |
-| [`library/`](library/README.md) | A research library: market, craft and player research, filed by shelf, with an index. Starts with research shared from the original Pod |
+| [`library/`](library/README.md) | A research library, filed by shelf, with an index. Starts with the three context-engineering briefs above |
 | [`tools/pod_lint.py`](tools/pod_lint.py) | One command that checks links, front matter, the map, the pasted rules, past dates and stray keys |
 
 ## The idea in four lines

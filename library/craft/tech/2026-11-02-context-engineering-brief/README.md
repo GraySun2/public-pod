@@ -13,7 +13,7 @@ superseded_by:
 
 # Context engineering for LLMs, research brief updated to November 2026
 
-The mid-2025 brief's core argument held up when checked against sources through November 2026: context is a scarce working memory, and curating it beats enlarging it. Every "(verify)" item checked out; two details were wrong (a tool-count example and Claude Code's compaction threshold). What changed is the tooling (Agent Skills, tool search, code execution with MCP, server-side compaction), the evidence (2026 studies on distractors, memory benchmarks, and whether AGENTS.md files help), and one new risk (memory poisoning). The same brief is also a Claude Doc: [Context Engineering for LLMs, Nov 2026 update](https://claude.ai/artifact/91Ah2F3BXJZZoAqmz6Sqtj).
+The mid-2025 brief's core argument held up when checked against sources through November 2026: context is a scarce working memory, and curating it beats enlarging it. Every "(verify)" item checked out; two details were wrong (a tool-count example and Claude Code's compaction threshold). What changed is the tooling (Agent Skills, tool search, code execution with MCP, server-side compaction), the evidence (2026 studies on distractors, memory benchmarks, and whether AGENTS.md files help), and one new risk (memory poisoning).
 
 Marks: **[Verified]** checked against the source, **[Corrected]** the old text was wrong or imprecise, **[Changed]** true then, different now, **[New]** not in the old brief. Source numbers like [S5] point to [SOURCES.md](SOURCES.md).
 
