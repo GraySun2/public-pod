@@ -1,2 +1,2 @@
 # fixture list
-archive/notes_pvt/main/research/fish-link.md -> fish.md
+archive/frozen_notes/main/research/fish-link.md -> fish.md

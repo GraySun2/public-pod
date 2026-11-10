@@ -30,4 +30,4 @@ _None yet._
 
 | Title | Date | Type | Status | Projects | Path |
 | --- | --- | --- | --- | --- | --- |
-| Not moved yet | 2026-09-12 | evidence | frozen |  | `archive/notes_pvt/main/not-moved-yet.md` |
+| Not moved yet | 2026-09-12 | evidence | frozen |  | `archive/frozen_notes/main/not-moved-yet.md` |

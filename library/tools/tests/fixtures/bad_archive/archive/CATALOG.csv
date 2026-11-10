@@ -1,5 +1,5 @@
 path,title,type,date,status,projects,topics,basis
-archive/notes_pvt/main/one.md,One,evidence,2026-09-12,frozen,,,x
-archive/notes_pvt/main/missing.md,Missing,evidence,2026-09-12,frozen,,,x
+archive/frozen_notes/main/one.md,One,evidence,2026-09-12,frozen,,,x
+archive/frozen_notes/main/missing.md,Missing,evidence,2026-09-12,frozen,,,x
 archive/other/elsewhere.md,Elsewhere,evidence,2026-09-12,current,,,x
-archive/notes_pvt/../other/x.md,Escapes,evidence,2026-09-12,frozen,,,x
+archive/frozen_notes/../other/x.md,Escapes,evidence,2026-09-12,frozen,,,x

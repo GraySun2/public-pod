@@ -30,7 +30,7 @@ _None yet._
 
 | Title | Date | Type | Status | Projects | Path |
 | --- | --- | --- | --- | --- | --- |
-| Escapes | 2026-09-12 | evidence | frozen |  | `archive/notes_pvt/../other/x.md` |
-| Missing | 2026-09-12 | evidence | frozen |  | `archive/notes_pvt/main/missing.md` |
-| One | 2026-09-12 | evidence | frozen |  | `archive/notes_pvt/main/one.md` |
+| Escapes | 2026-09-12 | evidence | frozen |  | `archive/frozen_notes/../other/x.md` |
+| Missing | 2026-09-12 | evidence | frozen |  | `archive/frozen_notes/main/missing.md` |
+| One | 2026-09-12 | evidence | frozen |  | `archive/frozen_notes/main/one.md` |
 | Elsewhere | 2026-09-12 | evidence | current |  | `archive/other/elsewhere.md` |

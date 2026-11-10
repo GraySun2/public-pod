@@ -6,10 +6,10 @@
   repo: ExampleOwner/maze-game
   note: M1 planned; no gates passed
 
-- slug: teehee-trail
-  name: Teehee Trail
+- slug: trail-game
+  name: Trail Game
   status: shelved
   as_of: 2026-10-15
-  hub: concepts/teehee-trail/
+  hub: concepts/trail-game/
   repo:
   note:

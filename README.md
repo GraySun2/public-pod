@@ -36,7 +36,7 @@ It grew out of one indie game developer's setup, used daily across two Claude ac
 
 ## Getting started
 
-Click **Use this template** (or fork it), make the copy **private**, and follow [`SETUP.md`](SETUP.md). Your own Pod will hold personal facts, so it should never be public. This repo is the blank kit.
+Click **Use this template**, make the copy **private**, and follow [`SETUP.md`](SETUP.md). Your own Pod will hold personal facts, so it should never be public. Don't fork it for your own Pod: a fork of a public repo stays public. Forks are for sending changes back here ([`CONTRIBUTING.md`](CONTRIBUTING.md)).
 
 ## Contributing
 

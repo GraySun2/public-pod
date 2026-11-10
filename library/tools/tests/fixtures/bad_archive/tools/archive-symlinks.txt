@@ -1,4 +1,4 @@
-archive/notes_pvt/main/link.md -> one.md
-archive/notes_pvt/main/plain.md -> one.md
-archive/notes_pvt/main/absent.md -> one.md
+archive/frozen_notes/main/link.md -> one.md
+archive/frozen_notes/main/plain.md -> one.md
+archive/frozen_notes/main/absent.md -> one.md
 not a valid line
