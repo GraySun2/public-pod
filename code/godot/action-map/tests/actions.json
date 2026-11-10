@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Dot Catch (Godot phone template)",
-  "notes": "The action map format, unchanged. The template reads this file at start-up and builds Godot's InputMap and the on-screen touch controls from it. Change actions here, then run: python3 scaffolds/control-mapping/tools/controls_tool.py check controls/actions.json",
+  "notes": "The action map format, unchanged. The template reads this file at start-up and builds Godot's InputMap and the on-screen touch controls from it. Change actions here.",
   "devices": ["touch", "gamepad", "keyboard_mouse"],
   "players_per_device": {"touch": 1, "gamepad": 1, "keyboard_mouse": 1},
   "contexts": {

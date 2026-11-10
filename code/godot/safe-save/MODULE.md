@@ -14,7 +14,7 @@ owns: slot files (current, backup, temp) under one folder; crash-safe writing; p
 does not own: what the world dictionary holds and how the game rebuilds itself from it; settings (keep those apart, per machine); cloud saves and Steam Cloud; encryption or anti-cheat
 used by: none here
 copies: none
-tested: not run in Godot yet. No Godot binary could be run in the build container on 2026-10-27, so tests/test_save_store.gd is written but unrun. The encoding was checked with a Python model of enc()/dec() under Godot's JSON rules (every case in the test round-trips; the pre-review encoder failed the tag, INF and big-number cases). The original save_store.gd passed Chamomile Cavern's own save tests (game/tests/test_m2a_save.gd) there, but this general version changes its interface
+tested: not run in Godot yet. No Godot binary could be run in the build container on 2026-10-27, so tests/test_save_store.gd is written but unrun. The encoding was checked with a Python model of enc()/dec() under Godot's JSON rules (every case in the test round-trips; the pre-review encoder failed the tag, INF and big-number cases). The original save_store.gd passed its game's own save tests, but this general version changes its interface
 ```
 
 ## Use it in a game

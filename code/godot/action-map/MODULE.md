@@ -14,7 +14,7 @@ owns: reading controls/actions.json at start-up; turning each axis_2d action int
 does not own: the action map format, bindings and prompt wording (control-mapping); drawing touch controls, sizes and safe area (touch-controls, and the template's touch_controls.gd); switching prompts when the device changes (the template's input_mode.gd); remapping at runtime
 used by: none here
 copies: none
-tested: not run yet. No Godot binary in the build container on 2026-10-27; tests/test_action_map.gd is written but unrun. The code itself was exported and phone-tested inside the template on 2026-10-25 (see the template's PROVENANCE.md)
+tested: not run yet. No Godot binary in the build container on 2026-10-27; tests/test_action_map.gd is written but unrun. The code itself was exported and phone-tested inside the template on 2026-10-25
 ```
 
 ## Use it in a game

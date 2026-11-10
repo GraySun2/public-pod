@@ -19,7 +19,7 @@ tested: cargo +1.97.1 test in tests/ on 2026-10-27, Rust 1.97.1, Bevy 0.20.0: 11
 
 ## Use it in a game
 
-1. Copy `src/headless.rs` into the game, usually as `tests/common/mod.rs` so every integration test can share it. Your plugins must be reachable from `tests/`, so the game needs a library target (`src/lib.rs`) that exports them, as Cowboys & Aliens and Slapstick Chariots have. For a bot or a `--selftest` flag inside the game itself (Cell Block's), put it in `src/` instead.
+1. Copy `src/headless.rs` into the game, usually as `tests/common/mod.rs` so every integration test can share it. Your plugins must be reachable from `tests/`, so the game needs a library target (`src/lib.rs`) that exports them. For a bot or a `--selftest` flag inside the game itself, put it in `src/` instead.
 2. In each test file:
 
    ```rust
