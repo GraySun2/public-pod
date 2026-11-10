@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "game": "Edge cases for code/bevy/action-map",
+  "notes": "Mouse, wheel, one-axis, look and toggle actions, controller pairs and repeat buttons and axes, plus names this module can't use (on jump and slide, and the spin action's kind), so the tests can check each is skipped with a reason.",
+  "devices": ["keyboard_mouse", "gamepad", "touch"],
+  "contexts": {
+    "play": {"label": "Playing", "active_with": []}
+  },
+  "actions": [
+    {"id": "move", "label": "Move", "context": "play", "kind": "axis_2d", "press": "analog",
+     "bindings": {"keyboard_mouse": ["WASD"], "gamepad": ["stick_left"], "touch": ["stick_move"]}},
+    {"id": "look", "label": "Look", "context": "play", "kind": "axis_2d", "press": "analog",
+     "bindings": {"keyboard_mouse": ["Mouse"], "gamepad": ["stick_right"], "touch": ["look_drag"]}},
+    {"id": "fire", "label": "Shoot", "context": "play", "kind": "button", "press": "tap",
+     "bindings": {"keyboard_mouse": ["MouseLeft"], "gamepad": ["trigger_right"], "touch": ["btn_fire"]}},
+    {"id": "next_tool", "label": "Next tool", "context": "play", "kind": "button", "press": "tap",
+     "bindings": {"keyboard_mouse": ["MouseWheel", "Tab"], "gamepad": ["shoulder_right"], "touch": []}},
+    {"id": "steer", "label": "Steer", "context": "play", "kind": "axis_1d", "press": "analog",
+     "bindings": {"keyboard_mouse": ["A/D", "ArrowLeft/ArrowRight"], "gamepad": ["stick_left_x"], "touch": []}},
+    {"id": "throttle", "label": "Throttle", "context": "play", "kind": "axis_1d", "press": "analog",
+     "bindings": {"keyboard_mouse": ["W"], "gamepad": ["trigger_left"], "touch": []}},
+    {"id": "sprint", "label": "Sprint", "context": "play", "kind": "button", "press": "hold", "toggle_option": true,
+     "bindings": {"keyboard_mouse": ["LeftShift"], "gamepad": ["stick_left_press"], "touch": []}},
+    {"id": "jump", "label": "Jump", "context": "play", "kind": "button", "press": "tap",
+     "bindings": {"keyboard_mouse": ["Hyper", "LeftCtrl+B", "WASD", "Space"],
+                  "gamepad": ["grip_left", "face_middle", "stick_left", "face_south"],
+                  "touch": ["btn_missing", "btn_jump"]}},
+    {"id": "spin", "label": "Spin", "context": "play", "kind": "axis_3d", "press": "analog", "bindings": {}},
+    {"id": "slide", "label": "Slide", "context": "play", "kind": "axis_1d", "press": "analog",
+     "bindings": {"keyboard_mouse": ["Q/E"], "gamepad": ["trigger_left/trigger_right", "dpad_left/dpad_right", "stick_left_x/stick_right_x"], "touch": []}},
+    {"id": "next_page", "label": "Next page", "context": "play", "kind": "button", "press": "repeat",
+     "bindings": {"keyboard_mouse": ["R"], "gamepad": ["face_north"], "touch": []}},
+    {"id": "zoom", "label": "Zoom", "context": "play", "kind": "axis_1d", "press": "repeat",
+     "bindings": {"keyboard_mouse": ["Z/X"], "gamepad": ["stick_right_y"], "touch": []}}
+  ],
+  "touch_layout": {
+    "orientation": "landscape",
+    "controls": [
+      {"id": "stick_move", "label": "Move", "type": "stick", "x": 0.17, "y": 0.62, "r": 0.14},
+      {"id": "look_drag", "label": "Drag to look", "type": "area", "x": 0.75, "y": 0.5, "w": 0.5, "h": 1.0},
+      {"id": "btn_fire", "label": "SHOOT", "type": "button", "x": 0.87, "y": 0.5, "r": 0.1},
+      {"id": "btn_jump", "label": "", "type": "button", "x": 0.7, "y": 0.75, "r": 0.06}
+    ]
+  }
+}
