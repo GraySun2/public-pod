@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "game": "Dot Catch (Godot phone template)",
+  "notes": "The action map format, unchanged. The template reads this file at start-up and builds Godot's InputMap and the on-screen touch controls from it. Change actions here.",
+  "devices": ["touch", "gamepad", "keyboard_mouse"],
+  "players_per_device": {"touch": 1, "gamepad": 1, "keyboard_mouse": 1},
+  "contexts": {
+    "play": {"label": "Playing", "active_with": []},
+    "menu": {"label": "Menus", "active_with": []},
+    "always": {"label": "Any time", "active_with": ["play"]}
+  },
+  "actions": [
+    {"id": "move", "label": "Move", "context": "play", "kind": "axis_2d", "press": "analog",
+     "bindings": {"touch": ["stick_move"], "gamepad": ["stick_left", "dpad"], "keyboard_mouse": ["WASD", "Arrows"]}},
+    {"id": "dash", "label": "Dash", "context": "play", "kind": "button", "press": "tap",
+     "bindings": {"touch": ["btn_dash"], "gamepad": ["face_south"], "keyboard_mouse": ["Space"]}},
+    {"id": "pause", "label": "Pause", "context": "always", "kind": "button", "press": "tap",
+     "bindings": {"touch": ["btn_pause"], "gamepad": ["start"], "keyboard_mouse": ["Escape", "P"]}},
+    {"id": "menu_move", "label": "Move between options", "context": "menu", "kind": "axis_2d", "press": "repeat", "remappable": false, "required_on": ["keyboard_mouse", "gamepad"],
+     "note": "On touch the player taps the option, so there is nothing to move.",
+     "bindings": {"touch": [], "gamepad": ["dpad", "stick_left"], "keyboard_mouse": ["Arrows", "WASD"]}},
+    {"id": "confirm", "label": "Choose", "context": "menu", "kind": "button", "press": "tap", "remappable": false,
+     "bindings": {"touch": ["tap_screen"], "gamepad": ["face_south"], "keyboard_mouse": ["Enter", "Space"]}},
+    {"id": "back", "label": "Back", "context": "menu", "kind": "button", "press": "tap", "remappable": false, "required_on": ["keyboard_mouse", "gamepad"],
+     "note": "On touch, a tap on the pause screen resumes, so there is no Back button to show.",
+     "bindings": {"touch": [], "gamepad": ["face_east"], "keyboard_mouse": ["Escape", "Backspace"]}}
+  ],
+  "touch_layout": {
+    "orientation": "portrait",
+    "reference_px": [720, 1280],
+    "min_target_px": 88,
+    "controls": [
+      {"id": "stick_move", "label": "Move", "type": "stick", "x": 0.28, "y": 0.82, "r": 0.09},
+      {"id": "btn_dash", "label": "Dash", "type": "button", "x": 0.76, "y": 0.82, "r": 0.06},
+      {"id": "btn_pause", "label": "II", "type": "button", "x": 0.88, "y": 0.11, "r": 0.036},
+      {"id": "tap_screen", "label": "Tap the screen", "type": "area", "x": 0.5, "y": 0.5, "w": 0.8, "h": 0.8}
+    ]
+  },
+  "presets": {
+    "default": {"label": "Default", "description": "Touch first: thumb stick bottom left, Dash bottom right. A controller or keyboard plays the same game."}
+  }
+}

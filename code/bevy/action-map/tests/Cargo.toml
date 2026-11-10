@@ -1,0 +1,25 @@
+# Test harness for code/bevy/action-map. Run from this folder: cargo test
+# git ignores tests/Cargo.lock and target/. Bevy is a long first build; CARGO_TARGET_DIR can point
+# at a folder shared with other Bevy modules that use the same Bevy version and features.
+[package]
+name = "action_map_tests"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bevy = { version = "=0.20.0", default-features = false, features = ["std", "keyboard", "mouse", "gamepad"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lib]
+name = "action_map"
+path = "../src/action_map.rs"
+
+[[test]]
+name = "action_map"
+path = "test_action_map.rs"
+
+[[example]]
+name = "player"
+path = "../examples/player.rs"

@@ -1,0 +1,23 @@
+# Test harness for code/bevy/headless-app. Run from this folder: cargo test
+# git ignores tests/Cargo.lock and target/. Bevy is a long first build; CARGO_TARGET_DIR can point
+# at a folder shared with other Bevy modules that use the same Bevy version and features.
+[package]
+name = "headless_app_tests"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bevy = { version = "=0.20.0", default-features = false, features = ["std"] }
+
+[lib]
+name = "headless"
+path = "../src/headless.rs"
+
+[[test]]
+name = "headless"
+path = "test_headless.rs"
+
+[[example]]
+name = "fuse"
+path = "../examples/fuse.rs"
